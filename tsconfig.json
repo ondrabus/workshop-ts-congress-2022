@@ -1,0 +1,55 @@
+{
+    "ts-node": {
+      "transpileOnly": true,
+  
+      "files": true,
+  
+      "compilerOptions": {
+        "module": "CommonJS",
+        "baseUrl": ".",
+        "paths": {
+          "@/lib/*": ["lib/*"],
+          "@/components/*": ["src/components/*"],
+          "@/data/*": ["src/data/*"],
+          "@/styles/*": ["src/styles/*"],
+          "@/utils/*": ["src/utils/*"],
+          "@/services/*": ["src/services/*"],
+          "@/models/*": ["src/models/*"],
+          "@/interfaces/*": ["src/interfaces/*"],
+          "@/constants/*": ["src/constants/*"],
+          "@/hooks/*": ["src/hooks/*"],
+          "@/middleware/*": ["src/middleware/*"],
+          "@/public/*": ["public/*"],
+          "@/static/*": ["static/*"]
+        }
+      }
+    },
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "incremental": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve"
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

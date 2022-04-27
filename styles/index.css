@@ -1,0 +1,11 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.gradient {
+    background: linear-gradient(90deg, #0057b7 0%, #ffd700 100%);
+}
+
+.text-gray-600.mb-8 a {
+    text-decoration: underline;
+}
