@@ -8,6 +8,12 @@ In order to run this project, clone it to your local:
 git clone https://github.com/ondrabus/workshop-ts-congress-2022
 ```
 
+Add a .env file with Kontent project ID (use your own Project ID or the one displayed below used during the workshop):
+
+```
+KONTENT_PROJECT_ID=02a32acf-f064-0121-37a5-f45d0877ffaf
+```
+
 And run:
 
 ```
